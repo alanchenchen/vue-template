@@ -13,28 +13,28 @@ module.exports = {
                 name: 'useStore',
                 message: 'whether use vuex or not?',
                 default: true,
-                validate(confirm) {
-                    if(confirm === undefined) {
-                        return 'can not be null'
-                    } 
-                    else {
-                        return true
-                    }
-                }
+                // validate(confirm) {
+                //     if(confirm === undefined) {
+                //         return 'can not be null'
+                //     } 
+                //     else {
+                //         return true
+                //     }
+                // }
             },
             {
                 type: 'confirm',
                 name: 'useGittask',
                 message: 'whether use git task workflow or not?',
                 default: true,
-                validate(confirm) {
-                    if(confirm === undefined) {
-                        return 'can not be null'
-                    } 
-                    else {
-                        return true
-                    }
-                }
+                // validate(confirm) {
+                //     if(confirm === undefined) {
+                //         return 'can not be null'
+                //     } 
+                //     else {
+                //         return true
+                //     }
+                // }
             }
         ]
 
