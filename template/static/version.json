@@ -1,0 +1,15 @@
+{
+  "development": {
+    "lastDate": "2019/06/25 10:16:45"
+  },
+  "production": {
+    "lastDate": "2019/06/18 11:08:00"
+  },
+  "dependencies": {
+    "@alanchenchen/gittask": "^0.0.6",
+    "api-module": "^0.0.9",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}
